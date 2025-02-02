@@ -1,0 +1,1 @@
+This app (WIFI) is to act as a webserver for this project. The Raspberry PI Pico 2W will make api calls to this server. There will be an Ollama server running in the background running Google's Gemma 2 2B model. A prompt as been crafted such that it will give a response enclosed within <r> and </r> and the actions (if any) within <as> and </as>.
