@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from wifi.views import GetActionFromPrompt
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('get_action_from_prompt/', GetActionFromPrompt.as_view()),
 ]
