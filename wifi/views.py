@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 import wifi.ollama_interactions as OLLAMA
 from rest_framework.response import Response
 
-ollama = OLLAMA.OllamaInteractions("gemma2:2b")
+ollama = OLLAMA.OllamaInteractions("llm2ardChatGPT4o")
 
 
 class GetActionFromPrompt(APIView):

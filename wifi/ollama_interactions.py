@@ -10,7 +10,7 @@ class OllamaInteractions:
         self._is_starting = False
         self.memory = []
 
-        self.startup()
+        # self.startup()
 
     def startup(self):
 
@@ -25,7 +25,7 @@ class OllamaInteractions:
                     5. **If no movement is required**, return an empty `<as></as>`.  
 
                     Follow these movement commands when needed:  
-                    - `move front`  
+                    - `move front`
                     - `move back`  
                     - `move left`  
                     - `move right`  
